@@ -1,0 +1,223 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/11/2020, 06:42:09 PM
+    Author     : Victor
+*/
+/* Contenedor del login */
+
+
+
+#Login{
+    background-color: #d5f4e6;
+    background-image: url(image/Imagen4.png);
+    height: 600px;  /*You must set a specified height*/ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  /*Resize the background image to cover the entire container */
+
+}
+
+#Menu{
+    background-color: #d5f4e6;
+    background-image: url(image/Imagen6.png);
+    height: 630px;  /*You must set a specified height*/ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  /*Resize the background image to cover the entire container */
+}
+
+#login {
+    background-color: #77B0C5;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    max-width: 20em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#usuario {  
+    background-color: #77B0C5;
+}  
+
+#fondo1 {  
+    background-image: url(image/Imagen3.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 75px;
+
+}  
+
+#fondo2 {  
+    background-image: url(image/Imagen8.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 75px;
+}
+
+#menu {
+    background:#e6e6e6;
+    width:90%;
+    max-width:1000px;
+    margin:auto;  
+}  
+
+/* Etiquetas del formulario */
+
+label {
+    color: black;
+    display: block;
+    margin-bottom: 6px;
+    margin-left: 1.2em;
+}
+
+/* Campos del formulario */
+
+input[type="text"],
+
+input[type="password"],
+
+input[type="host"],
+
+input[type="server"]{
+    border: none;
+    border-radius: 6px;
+    display: block;
+    font-size: 1em;
+    height: 2em;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[id="boton1"]{
+    background-color: #A3A0A2;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    display: block;
+    font-size: 1em;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    text-align: center;
+    width: 150px;
+}
+
+input[id="boton1"]:hover {
+    cursor: pointer;
+    background-color: #A33D41;
+    opacity: 0.8;
+}/*Se muestra que esta encima del boton*/
+
+/* Botón */
+
+input[id="boton"] {
+    background-color: #A3A0A2;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    display: block;
+    font-size: 1em;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    text-align: center;
+    width: 150px;
+}
+
+
+
+input[id="boton"]:hover {
+    cursor: pointer;
+    background-color: #A33D41;
+    opacity: 0.8;
+}/*Se muestra que esta encima del boton*/
+
+nav {
+    background:#3669a3;
+    margin-top:20px;
+    position: relative;
+}/*Pocicion del text*/
+
+nav ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+
+}/*No se ve el color del menu*/
+
+nav > ul > li {
+    float:left;
+}/*Se acomoda el menu a la izquierda*/
+
+nav ul li a {
+    text-decoration:none;
+    color:#fff;
+    display:block;
+    padding:10px 20px;
+}/*acomoda el menu*/
+
+nav ul li a:hover {
+    background:#3669a3;
+}/*Color de escogencia del menu*/
+
+nav > ul > li:hover div {
+    display:table;
+    background:#3669a3;
+}/*Muestra la opcion de mandar el comando*/
+
+nav ul li div {
+    width:1000px;
+    position: absolute;
+    left:0;
+    background:#ccc;
+    box-sizing:border-box;
+    display:none;
+}/*Se agrupa las opciones del menu*/
+
+/*nav ul li div ul{
+    width:20%;
+    display:table-cell;
+    border-right:1px solid rgba(255,255,255,.5);
+    box-sizing:border-box;
+}
+
+nav ul li div ul:last-child {
+    border:none;
+}*/
+
+/*nav ul li div ul .titulo a {
+    color:#fff;
+    padding:10px 20px;
+}*/
+
+/*nav ul li div ul .titulo {
+    background:#000;
+    color:#fff;
+}*/
+
+/*nav ul li div ul .titulo a:hover {
+    background:none;
+}*/
+
+/*nav ul li div ul li a {
+    color:#000;
+}*/
+
+/*nav ul li div ul li a:hover {
+    color:#fff;
+}*/
+
+
